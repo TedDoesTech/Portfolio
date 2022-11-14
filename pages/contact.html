@@ -3,5 +3,40 @@
         <head>
             <title>Contact Me</title>
             <h1>Contact Me</h1>
+            <body>
+                If you would like to contact me to discuss a project please fill out the form below.
+            </body>
+        <form>
+            <fieldset>
+                <legend>Your Details</legend>
+                <label for="firstname">First Name</label>
+                <input id= "firstname" type="text">
+                <br>
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text">
+                <br>
+                <label for="email">Email Address</label>
+                <input id="email" type="text">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="notes">Add any additonal information you think may be useful</label>
+                <textarea id="notes" cols="30" rows="10"></textarea>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>How Did You Find Me?</legend>
+                <input type="radio" name="source" value="Google" checked="checked"> Google
+                <br>
+                <input type="radio" name="source" value="Bing"> Bing
+                <br>
+                <input type="radio" name="source" value="Ask Jeeves"> Ask Jeeves
+                <br>
+                <input type="radio" name="source" value="Other"> Other
+                <br>
+            </fieldset>
+            <input type="button" name="Submit" value="Submit">
+        </form>
         </head>
     </html>

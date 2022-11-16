@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-size: 30px;
+    color: blueviolet;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+}
+.div-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: red;
+ }
+ .span-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    display: inline-block
+ }
+ 

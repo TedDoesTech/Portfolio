@@ -1,25 +1,63 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    font-family: 'Inter', sans-serif;
 }
-h3 {
-    font-size: 30px;
-    color: blueviolet;
+div.welcome-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
 }
-a {
-    text-decoration: none;
-    color: crimson;
+.mainheader {
+    font-size: 4vw;
+    text-align: center;
 }
-.div-element {
-    height: 100px;
-    width: 100px;
-    color: white;
-    background-color: red;
- }
- .span-element {
-    height: 100px;
-    width: 100px;
-    color: white;
-    background-color: blue;
-    display: inline-block
- }
- 
+h2#secondheader {
+    font-size: 3vw;
+    text-align: center;
+}
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+div.aboutme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(144, 255, 220);
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    text-align: center;
+    color: black;
+}
+h3#imteditsnicetomeetyou {
+    font-weight: bold;
+    font-size: 3vw;
+}
+p.aboutmeparagraph {
+    font-size: 2vw;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+div.qualities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(141, 228, 255);
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    font-size: 3vw;
+}
+h4.qualitiesheader {
+    text-align: center;
+    font-size:  3vw;
+}
+p.qualitiespara {
+    text-align: center;
+    font-size: 2vw;
+    padding-left: 25%;
+    padding-right: 25%;
+}
